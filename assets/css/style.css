@@ -1,4 +1,5 @@
 body {
-	font-family: 'Courier', monospace;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial' sans-serif;
 	text-align: center;
+	background: #000 url("http://www.scri8e.com/h/xmas/CICED/SnoAni/sno_ani08.gif?filename=./sno_ani08.gif&w0=110&h0=80&imgType=1&h1=116&w1=160") 0 0 repeat-all;
 }
