@@ -1,0 +1,33 @@
+{
+  "name": "parsons-cc.github.io",
+  "description": "Site: http://parsons-cc.github.io   Syllabus: http://github.com/parsons-cc/syllabus",
+  "version": "0.0.1",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parsons-cc/parsons-cc.github.io.git"
+  },
+  "keywords": [
+    "creative",
+    "computing",
+    "parsons",
+    "design",
+    "github-pages"
+  ],
+  "author": "Adny Dayton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parsons-cc/parsons-cc.github.io/issues"
+  },
+  "homepage": "http://parsons-cc.github.io/",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "bower": "~1.3.12",
+    "grunt-release-it": "~0.2.1",
+    "matchdep": "~0.3.0",
+    "grunt-shell": "~1.1.1"
+  }
+}
