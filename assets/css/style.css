@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body {
+  font-family: 'Georgia', 'Times New Roman', 'Times' serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  background: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+code,
+pre {
+  font-family: 'Annonymous Pro', 'Andale Mono', 'Courier' monospace;
+}
+header {
+  display: inline;
+  float: left;
+  width: 140px;
+  margin: 0 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+main {
+  display: inline;
+  float: left;
+  width: 780px;
+  margin: 0 10px;
+  margin-left: 170px;
+}
+footer {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
