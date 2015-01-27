@@ -1,32 +1,101 @@
+@import url("http://fonts.googleapis.com/css?family=Anonymous+Pro:400,400italic,700,700italic");
+
 @import "../../vendor/semantic-grid/stylesheets/less/grid.less";
+@column-width: 60;
+@gutter-width: 20;
 @columns: 12;
-@width: 100%;
+@total-width: 100%;
+
+@pcc-sans-serif-family: 'Anonymous Pro', 'Andale Mono', 'Courier', monospace;
+@pcc-serif-family: 'Georgia', 'Times New Roman', 'Times' serif;
+
+@pcc-red: #e82e21;
+@pcc-black: rgb(0,0,0);
+@pcc-grey: rgb(75,75,75);
+
+
+.pcc-sans-serif() {
+	font-family: @pcc-sans-serif-family;
+}
+
+.pcc-serif() {
+	font-family: @pcc-serif-family;
+}
 
 body {
 	font-family: 'Georgia', 'Times New Roman', 'Times' serif;
 	font-size: 20px;
 	line-height: 1.5em;
 	background: #fff;
+	margin-top: 2em;
+	color: @pcc-grey;
 }
 
-h1, h2, h3, h4, h5, code, pre {
-	font-family: 'Annonymous Pro', 'Andale Mono', 'Courier' monospace;
+h1, h2, h3, h4, h5 {
+	.pcc-sans-serif();
+	font-weight: 700;
+	color: @pcc-black;
+}
+
+pre, code {
+	.pcc-sans-serif();
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: @pcc-black;
+	border-bottom: 1px dotted @pcc-grey;
+
+	&.external:after {
+		content: "\2197";
+		font-size: 50%;
+		line-height: 2em;
+		margin-left: .5em;
+		color: @pcc-grey;
+	}
+}
+
+a:hover {
+	color: @pcc-red;
+	border-color: @pcc-black;
+}
+
+#wrapper {
 }
 
 header {
 	.column(2);
 
 	position: fixed;
-	top: 0;
+	top: 2em;
 	left: 0;
+
+	nav {
+		.pcc-sans-serif();
+		text-transform: lowercase;
+		ul {
+			li {
+				a {
+					margin-left: .5em;
+				}
+			}
+		}
+	}
 }
 
 main {
-	.column(10);
+	.column(9);
 	.push(2);
+	.pull(1);
 
 }
 
 footer {
-	.column(12);
+	.column(9);
+	.push(2);
+	.pull(1);
+
+	font-size: 80%;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }

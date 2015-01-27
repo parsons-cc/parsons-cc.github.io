@@ -40,7 +40,7 @@ module.exports = function(grunt) {
 
       css: {
         files: ['assets/css/src/**/*.less'],
-        tasks: ['css']
+        tasks: ['css', 'jekyll:dev']
       },
 
       html: {
@@ -89,7 +89,7 @@ module.exports = function(grunt) {
   // Default task.
   grunt.registerTask('default', ['build']);
 
-  grunt.registerTask('dev', ['connect', 'watch']);
+  grunt.registerTask('dev', ['jekyll:dev', 'connect', 'watch']);
 
   grunt.registerTask('build', ['css', 'jekyll']);
 

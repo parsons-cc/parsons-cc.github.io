@@ -1,1 +1,1 @@
-exclude: [README.md, package.json, bower.json, Gruntfile.js, node_modules]
+exclude: [README.md, package.json, bower.json, Gruntfile.js, node_modules, assets/**/src]

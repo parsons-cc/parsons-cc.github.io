@@ -1,3 +1,4 @@
+@import url("http://fonts.googleapis.com/css?family=Anonymous+Pro:400,400italic,700,700italic");
 body {
   width: 100%;
   *zoom: 1;
@@ -15,35 +16,72 @@ body {
   font-size: 20px;
   line-height: 1.5em;
   background: #fff;
+  margin-top: 2em;
+  color: #4b4b4b;
 }
 h1,
 h2,
 h3,
 h4,
-h5,
-code,
-pre {
-  font-family: 'Annonymous Pro', 'Andale Mono', 'Courier' monospace;
+h5 {
+  font-family: 'Anonymous Pro', 'Andale Mono', 'Courier', monospace;
+  font-weight: 700;
+  color: #000000;
+}
+pre,
+code {
+  font-family: 'Anonymous Pro', 'Andale Mono', 'Courier', monospace;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 1px dotted #4b4b4b;
+}
+a.external:after,
+a:visited.external:after {
+  content: "\2197";
+  font-size: 50%;
+  line-height: 2em;
+  margin-left: .5em;
+  color: #4b4b4b;
+}
+a:hover {
+  color: #e82e21;
+  border-color: #000000;
 }
 header {
   display: inline;
   float: left;
-  width: 140px;
-  margin: 0 10px;
+  width: 14.58333333%;
+  margin: 0 1.04166667%;
   position: fixed;
-  top: 0;
+  top: 2em;
   left: 0;
+}
+header nav {
+  font-family: 'Anonymous Pro', 'Andale Mono', 'Courier', monospace;
+  text-transform: lowercase;
+}
+header nav ul li a {
+  margin-left: .5em;
 }
 main {
   display: inline;
   float: left;
-  width: 780px;
-  margin: 0 10px;
-  margin-left: 170px;
+  width: 72.91666667%;
+  margin: 0 1.04166667%;
+  margin-left: 17.70833333%;
+  margin-right: 9.375%;
 }
 footer {
   display: inline;
   float: left;
-  width: 940px;
-  margin: 0 10px;
+  width: 72.91666667%;
+  margin: 0 1.04166667%;
+  margin-left: 17.70833333%;
+  margin-right: 9.375%;
+  font-size: 80%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
