@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Creative Computing</title>
-	<link rel="stylesheet" href="assets/css/style.css">
-	<!--[if IE]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	{% include head.html %}
 </head>
 
 <body>
 
-	<main role="main">
-		{{ content }}
-	</main>
+	<div class="wrapper">
+
+		{% include header.html %}
+
+		<main role="main">
+			{{ content }}
+		</main>
+
+		{% include footer.html %}
+
+	</div>
 
 </body>
 </html>
