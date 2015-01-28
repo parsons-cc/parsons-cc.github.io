@@ -486,8 +486,9 @@ pre,
 code {
   font-family: 'Anonymous Pro', 'Andale Mono', 'Courier', monospace;
 }
-p {
-  margin-bottom: 1em;
+img.left {
+  float: left;
+  margin: 0 1em 1em 0;
 }
 a,
 a:visited {
