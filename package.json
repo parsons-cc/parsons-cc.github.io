@@ -1,7 +1,7 @@
 {
   "name": "parsons-cc.github.io",
   "description": "Site: http://parsons-cc.github.io   Syllabus: http://github.com/parsons-cc/syllabus",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.html",
   "repository": {
     "type": "git",
