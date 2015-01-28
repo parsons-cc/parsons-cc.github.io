@@ -4,7 +4,7 @@
 	{% include head.html %}
 </head>
 
-<body class="pcc-post">
+<body class="pcc-page">
 
 	<div id="wrapper">
 
@@ -12,7 +12,8 @@
 
 		<main role="main">
 
-			<h1>{{page.title}}<time class="published">{{page.date | date_to_string }}</time></h1>
+			<h1>{{page.title}}</h1>
+
 			<article>
 				{{ content }}
 			</article>
