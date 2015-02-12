@@ -7,6 +7,8 @@ For the next assignment we will be entering our sample text as HTML markup and s
 
 <!--more-->
 
+<canvas id="gesso"></canvas>
+
 ## Review
 
 Building on our [assignment from last week](/2015/02/04/readings-and-assignments-for-feb-10.html), we discussed the results and traded programs one more time. In class we did a basic introduction to HTML & CSS, and had some work time to try out HTML.
