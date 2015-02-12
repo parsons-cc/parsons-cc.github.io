@@ -46,6 +46,10 @@ title: Resources
 
  * _Soon..._
 
+### Type & Fonts
+ * [Google Fonts](https://www.google.com/fonts)
+ * [Typewolf](http://www.typewolf.com/open-source-web-fonts)
+
 ### Git & Github
 
  * [Forking Projects](https://guides.github.com/activities/forking/) — a great guide from GitHub on forking & pull requests
