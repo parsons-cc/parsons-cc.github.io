@@ -472,15 +472,13 @@ h1 {
   margin-top: 0;
 }
 h2 {
-  font-size: 70%;
-  font-weight: normal;
-  text-transform: uppercase;
-  color: #4b4b4b;
-  margin-top: 2em;
-  border-bottom: 1px solid #4b4b4b;
+  font-size: 125%;
 }
 h3 {
-  font-size: 125%;
+  font-size: 100%;
+  color: #4b4b4b;
+  margin-top: 2em;
+  border-bottom: 1px solid #afafaf;
 }
 pre,
 code {

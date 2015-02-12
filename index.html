@@ -12,11 +12,11 @@ title: "PUCD 2035: Creative Computing (Spring 2015)"
 </section>
 
 <section class="pcc-posts">
-	<h2>Updates</h2>
+	<h3>Updates</h3>
 
 	{% for post in site.posts %}
 		<article class="pcc-post pcc-post-excerpt">
-			<h3><a href="{{ post.url }}">{{ post.title }}<time class="published">{{ post.date | date_to_string }}</time></a></h3>
+			<h2><a href="{{ post.url }}">{{ post.title }}<time class="published">{{ post.date | date_to_string }}</time></a></h2>
 			 {{ post.excerpt }}
 		</article>
 	{% endfor %}

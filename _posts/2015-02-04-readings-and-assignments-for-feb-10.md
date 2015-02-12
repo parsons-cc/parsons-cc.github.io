@@ -7,11 +7,11 @@ Great to meet everyone in person finally! Here are your readings and assignments
 
 <!--more-->
 
-### Reading
+## Reading
 
 For next week you'll need to read to finish Alexander Galloway's first chapter in _Protocol_. You can find links to the PDF on the [readings](/readings.html) page of the class site. You can also check the [example]() to get a sense of how it will look when you're done.
 
-### Assignment
+## Assignment
 
 We will essentially be finishing the assignment we started in-class, writing a program to modify our texts. You will be saving your progress via [GitHub](http://github.com). The goals for this part of the assignment are:
 
