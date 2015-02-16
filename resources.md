@@ -5,7 +5,7 @@ title: Resources
 
 ## Guides
 
- * GitHub _(Soon...)_
+ * [GitHub](github-guide.html)
  * Debugging
 
 ## Tools
