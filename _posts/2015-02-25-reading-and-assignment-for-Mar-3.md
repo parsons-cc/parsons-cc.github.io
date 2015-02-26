@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Readings and Assignments for Mar 3
+title: Reading and Assignment for Mar 3
 ---
 
 You'll be finishing up & reviewing the work from last class and submitting that as this week's assignment. There is also another reading.
 
 <!--more-->
 
-# Readings
+## Readings
 
 Please read Chapter 2 from [Marijn Haverbeke's _Eloquent JavaScript_](http://eloquentjavascript.net/02_program_structure.html) for next week's class.
 
