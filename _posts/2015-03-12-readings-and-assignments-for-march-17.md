@@ -24,9 +24,9 @@ See below for more details.
 
 Propose a composition for the browser that incorporates time in some way, including at least two sketches. You should focus on concept and design here, and we'll discuss the best approach and difficulty of your proposal. See below for some examples from class:
 
- * Alexander Chen's [_Piano Phase_](http://www.chenalexander.com/Piano-Phase) (original score by [Steve Reich](http://en.wikipedia.org/wiki/Piano_Phase))
- * Andrew LeClair's [_Scroll Clock_](http://andrewleclair.com/scrollclock/)
- * Eric Levin's [_Come Down to Us](http://ericrius1.github.io/ComeDownToUs/) ([more info](https://www.chromeexperiments.com/experiment/come-down-to-us))
+ * Alexander Chen, [_Piano Phase_](http://www.chenalexander.com/Piano-Phase) (original score by [Steve Reich](http://en.wikipedia.org/wiki/Piano_Phase))
+ * Andrew LeClair, [_Scroll Clock_](http://andrewleclair.com/scrollclock/)
+ * Eric Levin, [_Come Down to Us_](http://ericrius1.github.io/ComeDownToUs/) ([more info](https://www.chromeexperiments.com/experiment/come-down-to-us))
  * Joe McKay, [_Sunset Solitare_](https://www.youtube.com/watch?v=DchBgy8yCd0&feature=youtu.be) ([more info](http://www.joemckaystudio.com/sunset.php))
  * Christian Marclay, [The Clock](http://en.wikipedia.org/wiki/The_Clock_%282010_film%29)
 
