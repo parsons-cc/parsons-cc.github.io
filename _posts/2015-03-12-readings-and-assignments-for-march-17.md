@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Reading and Assignment for Mar 10
+title: Reading and Assignments for Mar 17
 ---
 
-For next week, finish up the "patternist" project and have it ready to present in class. Also, the next chapter from _Eloquent Javascript_ will give you some more information about functions and how they work.
+We're getting ready to move on to a new project as well as a research project. Plus, more from Haverbeke's _Eloquent JavaScript_.
 
 <!--more-->
 
