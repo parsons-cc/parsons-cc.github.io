@@ -9,3 +9,4 @@ title: Readings
  * [JavaScript for Cats](http://jsforcats.com/)
  * Chapter 2, [_Eloquent JavaScript_](http://eloquentjavascript.net/02_program_structure.html), Marijn Haverbeke
  * Chapter 3, [_Eloquent JavaScript_](http://eloquentjavascript.net/03_functions.html), Marijn Haverbeke
+ * Chapter 4, [_Eloquent JavaScript_](http://eloquentjavascript.net/04_data.html), Marijn Haverbeke
