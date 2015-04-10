@@ -9,7 +9,7 @@ Jumping into our "Timepiece" project and a bit of reading.
 
 ## Readings
 
-Please read Chapter 12 from [Marijn Haverbeke's _Eloquent JavaScript_](http://eloquentjavascript.net/17_http.html) for next week's class.
+Please read Chapter 17 from [Marijn Haverbeke's _Eloquent JavaScript_](http://eloquentjavascript.net/17_http.html) for next week's class.
 
 ## Assignments
 
@@ -23,7 +23,7 @@ Don't be daunted by the prospect of creating a prototype. Your goal for this pha
 
 
  1. Identify the most challenging technical aspect(s) of your project and focus on that. For many of you, this will overlap somewhat with your research project which could be helpful.
- 2. Break down your project into its simplest parts based on the technical challenges. Focus on solving those problems, rather than trying to come to a finish product right away. 
+ 2. Break down your project into its simplest parts based on the technical challenges. Focus on solving those problems, rather than trying to come to a finish product right away.
  3. Once you've completed the prototype, try to get a sense of what your biggest challenges will be for completing the final version of your project. This may be a point to re-evaluate your plan based on what you learned.
 
 
