@@ -8,6 +8,9 @@ title: Resources
  * [GitHub](github-guide.html)
  * Debugging
 
+## Class Materials
+ * All code used in class can be found on the [Class GitHub](https://github.com/parsons-cc/).
+
 ## Tools
 
  * [Atom](http://atom.io) for editing code ([Sublime Text](http://www.sublimetext.com/) as backup)
@@ -43,8 +46,24 @@ title: Resources
  * [CSS Tricks](http://css-tricks.com/) — this is a great place to find well-tested CSS tricks and learn about fancy new CSS techniques
 
 ### JavaScript
+ * [MDN JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+ * [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - p5 usese this, a 2D graphics API for JavaScript using the `<canvas>` element
+ * [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) - Web audio. This is used by p5's audio functions.
+ * [WebGL](https://developer.mozilla.org/en-US/docs/Web/WebGL) - 3d graphics on the web using your computers built-in graphics hardware
 
- * _Soon..._
+#### p5js
+
+ * [p5js Homepage](http://p5js.org/)
+  * [Reference](http://p5js.org/reference/)
+  * [Examples](http://p5js.org/learn/#examples)
+  * [Source (GitHub)](https://github.com/processing/p5.js)
+
+#### Other JS Tools
+
+ * [jQuery](https://jquery.com/) - General-purpose tool for manipulating the DOM, AJAX requests, and a few other things.
+ * [lodash](https://lodash.com/) - A utility to fill in the missing gaps for JavaScript. A lot of helpful tools for dealing with iterating through data, etc.
+ * [three.js](http://threejs.org/) - Library for 3d graphics using WebGL
+ * [d3](http://d3js.org/) - A data visualization tool used by <em>The New York Times</em> (among others)
 
 ### Type & Fonts
  * [Google Fonts](https://www.google.com/fonts)

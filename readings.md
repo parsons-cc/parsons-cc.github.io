@@ -10,3 +10,4 @@ title: Readings
  * Chapter 2, [_Eloquent JavaScript_](http://eloquentjavascript.net/02_program_structure.html), Marijn Haverbeke
  * Chapter 3, [_Eloquent JavaScript_](http://eloquentjavascript.net/03_functions.html), Marijn Haverbeke
  * Chapter 4, [_Eloquent JavaScript_](http://eloquentjavascript.net/04_data.html), Marijn Haverbeke
+ * Chapter 17, [_Eloquent JavaScript_](http://eloquentjavascript.net/17_http.html), Marijn Haverbeke

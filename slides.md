@@ -9,3 +9,5 @@ title: Slides
  * [Week 4: JavaScript in Action](https://docs.google.com/a/newschool.edu/presentation/d/1jvFaXL_d_fLqwXP8Ts1hbnC6X4oKEbr_pVQuk5k8yrw/edit?usp=sharing)
  * [Week 5: More JavaScript](https://docs.google.com/a/newschool.edu/presentation/d/1_HIzJWW2M8N38e1JwKRyxyeqURldBq0BHmrzHJl3aM8/edit?usp=sharing)
  * [Week 6: Data Structures](https://docs.google.com/a/newschool.edu/presentation/d/1fwJ2nvOLYEUk6LIdg0rOHWWs3phzDwnQhGQgvrOT3xA/edit?usp=sharing)
+ * [Week 7: Data Structures](https://docs.google.com/a/newschool.edu/presentation/d/1btj7DIv3GNz1MCh9PEwmvUGLXcsARCSOs4tLEfS-ShQ/edit?usp=sharing)
+ * [Week 10: Using Data & APIs](https://docs.google.com/a/newschool.edu/presentation/d/1B-I5XW98Wh6LwVktH3G9qaeXOvH4ltFoUsg9YucB1k8/edit?usp=sharing)
