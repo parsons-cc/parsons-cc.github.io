@@ -14,3 +14,5 @@ title: Slides
  * [Week 11: Prototyping & Refactoring](https://docs.google.com/a/newschool.edu/presentation/d/12Chi6D_neFP2WsVlqxAHSAP57jBXHs2SR34S_h25Xrw/edit?usp=sharing)
  * [Week 12: JavaScript Libraries](https://docs.google.com/a/newschool.edu/presentation/d/16dtBemxYb7vZd9-WlFv2MhYuSqVv--X-pGtzDVPTFGo/edit?usp=sharing)
  * [Week 13](https://docs.google.com/a/newschool.edu/presentation/d/13hxvx-DSjboE_xZuL8_ewEPnpT461QiZ1wvn7HV3-7w/edit?usp=sharing)
+ * [Week 14](https://docs.google.com/a/newschool.edu/presentation/d/1oROLPkhzSJKstfMQ4HQiKPuwsnbeD4PZFOrjqAc6v4A/edit?usp=sharing)
+ * [Week 15](https://docs.google.com/a/newschool.edu/presentation/d/1Mfh5xd3TmIEqCyrdojnTs1nNNaNjcUa1C-hDmKEWqfY/edit?usp=sharing)
