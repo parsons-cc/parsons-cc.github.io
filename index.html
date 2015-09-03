@@ -1,24 +1,22 @@
 ---
 layout: default
-title: "PUCD 2035: Creative Computing (Spring 2015)"
+title: "CC"
 ---
 
-<section class="pcc-welcome">
-	<h1>{{ page.title }}</h1>
-	<p>Parsons the New School for Design</br>
-		Communication Design</p>
-	<p>This course will introduce students to the building blocks of creative computing within the visual and media environment. Students will learn to create dynamic images, type and interfaces, that can translate into print, web and spatial forms. Through weekly problems, students will learn programming fundamentals that translate in virtually all programming platforms.</p>
-	<p>Instructor: Andy Dayton</p>
+<div id="start"></div>
+
+<section id="feed">
+	<h2>Class Updates</h2>
 </section>
 
-<section class="pcc-posts">
-	<h3>Updates</h3>
+<section id="class">
+	<h2>Class Info</h2>
+</section>
 
-	{% for post in site.posts %}
-		<article class="pcc-post pcc-post-excerpt">
-			<h2><a href="{{ post.url }}">{{ post.title }}<time class="published">{{ post.date | date_to_string }}</time></a></h2>
-			 {{ post.excerpt }}
-		</article>
-	{% endfor %}
+<section id="lectures">
+	<h2>Lectures</h2>
+</section>
 
+<section id="readings">
+	<h2>Lectures</h2>
 </section>
