@@ -1,0 +1,162 @@
+@import url("http://fonts.googleapis.com/css?family=Anonymous+Pro:400,400italic,700,700italic");
+
+@import (inline) "../../vendor/normalize-css/normalize.css";
+
+@import "../../vendor/semantic-grid/stylesheets/less/grid.less";
+@column-width: 60;
+@gutter-width: 20;
+@columns: 12;
+@total-width: 100%;
+
+@pcc-monospace-family: 'Anonymous Pro', 'Andale Mono', 'Courier', monospace;
+@pcc-sans-serif-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+@pcc-serif-family: 'Georgia', 'Times New Roman', 'Times', serif;
+
+@pcc-red: #e82e21;
+@pcc-black: rgb(0,0,0);
+@pcc-grey: rgb(75,75,75);
+@pcc-light-grey: rgb(175,175,175);
+
+
+.pcc-sans-serif() {
+	font-family: @pcc-sans-serif-family;
+}
+
+.pcc-serif() {
+	font-family: @pcc-serif-family;
+}
+
+.pcc-monospace() {
+	font-family: @pcc-monospace-family;
+}
+
+body {
+	font-family: 'Georgia', 'Times New Roman', 'Times' serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	background: #fff;
+	margin-top: 2em;
+	color: @pcc-grey;
+}
+
+h1, h2, h3, h4, h5 {
+	.pcc-sans-serif();
+	font-weight: 700;
+	color: @pcc-black;
+	margin: 1em 0;
+	time {
+		.pcc-sans-serif();
+
+		font-size: 50%;
+		font-weight: normal;
+		margin-left: .75em;
+	}
+}
+
+h1 {
+	font-size: 150%;
+	margin-top: 0;
+}
+
+h2 {
+	font-size: 125%;
+}
+
+h3 {
+	font-size: 100%;
+	// font-weight: normal;
+	// text-transform: uppercase;
+	color: @pcc-grey;
+	margin-top: 2em;
+	border-bottom: 1px solid @pcc-light-grey;
+}
+
+pre, code {
+	.pcc-monospace();
+}
+
+pre {
+	background: @pcc-black;
+	color: #fff;
+	margin-left: 1em;
+	padding: 1em;
+	font-size: 80%;
+}
+
+img {
+	max-width: 100%;
+	&.left {
+		float: left;
+		margin: 0 1em 1em 0;
+	}
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: @pcc-black;
+	border-bottom: 1px dotted @pcc-grey;
+
+	&.external:after {
+		content: "\2197";
+		font-size: 50%;
+		line-height: 2em;
+		margin-left: .5em;
+		color: @pcc-grey;
+	}
+}
+
+a:hover {
+	color: @pcc-red;
+	border-color: @pcc-black;
+}
+
+
+#wrapper {
+}
+
+header {
+	.column(2);
+
+	position: fixed;
+	top: 2em;
+	left: 0;
+
+	nav {
+		.pcc-sans-serif();
+		text-transform: lowercase;
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+
+			li {
+				a {
+					font-size: 80%;
+					margin-left: .5em;
+				}
+			}
+		}
+	}
+}
+
+main {
+	.column(9);
+	.push(2);
+	.pull(1);
+
+}
+
+footer {
+	.column(9);
+	.push(2);
+	.pull(1);
+
+	font-size: 80%;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+
+body.pcc-post {
+
+}

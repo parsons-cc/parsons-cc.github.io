@@ -1,15 +1,68 @@
+@import url("http://fonts.googleapis.com/css?family=Anonymous+Pro:400,400italic,700,700italic");
 @import (inline) "../../vendor/normalize-css/normalize.css";
+@import "../../vendor/semantic-grid/stylesheets/less/grid.less";
+@column-width: 60;
+@gutter-width: 20;
+@columns: 12;
+@total-width: 100%;
 
-body, html {
-  text-align: left;
+@pcc-monospace-family: 'Anonymous Pro', 'Andale Mono', 'Courier', monospace;
+@pcc-sans-serif-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+@pcc-serif-family: 'Georgia', 'Times New Roman', 'Times', serif;
+
+@img-px-pattern-white: '/assets/img/px-pattern-white.gif';
+
+.pcc-sans-serif() {
+	font-family: @pcc-sans-serif-family;
 }
 
+.pcc-serif() {
+	font-family: @pcc-serif-family;
+}
+
+.pcc-monospace() {
+	font-family: @pcc-monospace-family;
+}
+
+.px-bg() {
+  background: transparent url(@img-px-pattern-white) 0 0 repeat;
+}
+
+.px-bg-grey() {
+  background: #eee url(@img-px-pattern-white) 0 0 repeat;
+}
+
+.cf() {
+  zoom: 1; // For IE 6/7 (trigger hasLayout)
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+      clear:both;
+  }
+}
+
+
+body {
+  .pcc-sans-serif();
+  .px-bg-grey();
+}
+
+// h1, h1 * {
+//   .pcc-monospace();
+// }
+
 header {
+  .px-bg();
+
   text-align: right;
   position: fixed;
-  width: 15%;
+  width: 10%;
+  padding: 2.5%;
 
   nav {
+
     ul {
       list-style: none;
       padding: 0;
@@ -19,50 +72,51 @@ header {
 }
 
 section {
-  padding: 1em 1em 1em 20%;
+  .cf();
+
+  padding: 1em 1em 1em 15%;
+  h2 {
+    .column(12);
+  }
 }
 
-#start {
-  cursor: crosshair;
+#canvas {
+  width: 100%;
+  height: 100%;
 }
 
 
 #feed {
-  color: #000;
-  background: #fff;
 }
 
 #class {
-  color: #222;
-  background: #ccc;
 }
 
 #lectures {
-  color: #444;
-  background: #aaa;
 }
 
 #resources {
-  color: #666;
-  background: #888;
 }
 
 #readings {
-  color: #888;
-  background: #666;
 }
 
 #readings {
-  color: #aaa;
-  background: #444;
 }
 
 #reference {
-  color: #ccc;
-  background: #222;
 }
 
 #students {
-  color: #eee;
-  background: #000;
+}
+
+
+.cc-three-column {
+  .column(4);
+}
+
+@media screen and (max-width: 600px) {
+  .cc-three-column {
+    .column(12);
+  }
 }

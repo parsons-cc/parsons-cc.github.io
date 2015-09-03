@@ -15,6 +15,7 @@
   ],
   "devDependencies": {},
   "dependencies": {
-    "normalize-css": "~3.0.2"
+    "normalize-css": "~3.0.2",
+    "p5js": "~0.4.9"
   }
 }
