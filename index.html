@@ -1,24 +1,51 @@
 ---
 layout: default
-title: "PUCD 2035: Creative Computing (Spring 2015)"
+title: "CC"
 ---
 
-<section class="pcc-welcome">
-	<h1>{{ page.title }}</h1>
-	<p>Parsons the New School for Design</br>
-		Communication Design</p>
-	<p>This course will introduce students to the building blocks of creative computing within the visual and media environment. Students will learn to create dynamic images, type and interfaces, that can translate into print, web and spatial forms. Through weekly problems, students will learn programming fundamentals that translate in virtually all programming platforms.</p>
-	<p>Instructor: Andy Dayton</p>
+<div id="canvas"></div>
+
+<section id="class">
+	<h2>Creative Computing</h2>
+
+	<div class="cc-three-column">
+		<p>
+			<a href="https://alvin.newschool.edu/prbn/bwlkifac.P_FacSched?term_in=201510&crn=5730">PUCD 2035 D</a></br>
+			Fridays, 9:00am &ndash; 11:50am</br>
+			6 East 16th Street 610</br>
+
+		</p>
+	</div>
+
+	<div class="cc-three-column">
+		<ul>
+			<li><a href="https://rawgit.com/parsons-cc/syllabus/master/pdf/PUCD_2035_D_DAYTON_FA15.pdf">Syllabus (PDF)</a></li>
+			<li><a href="http://codepen.io/parsons-cc/">Class Codepen Page</a></li>
+			<li><a href="https://github.com/parsons-cc">Class GitHub Page</a></li>
+		</ul>
+	</div>
+
+	<div class="cc-three-column">
+		<p>
+			<strong>Instructor:</strong> Andy Dayton</br>
+			<a href="mailto:daytona1@newschool.edu">daytona1@newschool.edu</a>
+		</p>
+		<p>
+			<strong>TA:</strong> Peiying (Cathy) Feng</br>
+			<a href="mailto:fengp239@newschool.edu">fengp239@newschool.edu</a>
+		</p>
+	</div>
+
 </section>
 
-<section class="pcc-posts">
-	<h3>Updates</h3>
 
-	{% for post in site.posts %}
-		<article class="pcc-post pcc-post-excerpt">
-			<h2><a href="{{ post.url }}">{{ post.title }}<time class="published">{{ post.date | date_to_string }}</time></a></h2>
-			 {{ post.excerpt }}
-		</article>
-	{% endfor %}
+<section id="readings">
 
+	<h2>Readings</h2>
+	<div class="cc-single-column">
+		<ul>
+			<li><a href="https://dl.dropboxusercontent.com/u/2100102/parsons-cc/spring-2015/Gerstner_Designing-Programmes.pdf">Karl Gerstner, <em>Designing Programmes</em></a></li>
+			<li><a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">Paul Ford, "What is Code?"</a></li>
+		</ul>
+	</div>
 </section>

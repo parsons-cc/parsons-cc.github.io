@@ -43,6 +43,11 @@ module.exports = function(grunt) {
         tasks: ['css', 'jekyll:dev']
       },
 
+      js: {
+        files: ['assets/js/**/*.js'],
+        tasks: ['jekyll:dev']
+      },
+
       html: {
         files: ['*.html', '*.md', '_includes/*.html', '_layouts/*.html', '_posts/*'],
         tasks: ['jekyll'],

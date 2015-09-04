@@ -1,11 +1,11 @@
 {
   "name": "semantic-grid",
   "homepage": "https://github.com/twigkit/semantic.gs",
-  "_release": "22e0e7998b",
+  "_release": "c2aa77cc0e",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "22e0e7998ba936a36d671f694c03d4b08dbe1300"
+    "commit": "c2aa77cc0e3cd1b218993b098671553458ba31b5"
   },
   "_source": "git://github.com/twigkit/semantic.gs.git",
   "_target": "*",

@@ -1,6 +1,5 @@
 {
   "name": "p5.js",
-  "version": "0.4.0",
   "main": "lib/p5.min.js",
   "homepage": "http://p5js.org/",
   "authors": [
@@ -20,14 +19,14 @@
     "test",
     "tests"
   ],
-  "_release": "0.4.0",
+  "version": "0.4.9",
+  "_release": "0.4.9",
   "_resolution": {
     "type": "version",
-    "tag": "0.4.0",
-    "commit": "b489bbbfc008580258b6d4c8e13e751f3f10e5ef"
+    "tag": "0.4.9",
+    "commit": "a4f0e01572fca7c7ccbc10ebc789c641be77b3dd"
   },
   "_source": "git://github.com/lmccart/p5.js.git",
-  "_target": "~0.4.0",
-  "_originalSource": "p5js",
-  "_direct": true
+  "_target": "~0.4.9",
+  "_originalSource": "p5js"
 }
