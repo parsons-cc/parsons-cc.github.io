@@ -461,12 +461,10 @@ h3,
 h4 {
   font-weight: 400;
 }
-h3 {
-  text-transform: uppercase;
-}
-ul {
+ul,
+ol {
   padding: 0;
-  margin: 1em 0;
+  margin: 1em;
   list-style-image: square;
 }
 header {
@@ -484,9 +482,13 @@ header nav ul {
   padding: 0;
   margin: 0;
 }
+header nav .mobile-link {
+  display: none;
+}
 section {
   zoom: 1;
-  padding: 1em 1em 1em 15%;
+  padding: 1.5em 1em 1.5em 15%;
+  border-bottom: 1px dotted #ddd;
 }
 section:before,
 section:after {
@@ -506,22 +508,25 @@ section h2 {
   width: 100%;
   height: 100%;
 }
+#homework {
+  border-color: #ff00ff;
+}
 #class {
-  background: #eee;
+  border-color: #e82e21;
+}
+#lectures {
+  border-color: #002fa7;
 }
 #readings {
-  background: #ccc;
+  border-color: #ff0000;
+}
+#students {
+  border-color: #ffff00;
 }
 footer {
   padding: 1em 1em 1em 15%;
   font-size: 80%;
-  background: #000;
-  color: #fff;
-}
-footer a,
-footer a:visited {
-  color: #fff;
-  border-color: #fff;
+  background: #fff;
 }
 .cc-three-column {
   display: inline;
@@ -536,6 +541,44 @@ footer a:visited {
   margin: 0 1.04166667%;
 }
 @media screen and (max-width: 600px) {
+  header {
+    background: transparent url('/assets/img/px-pattern-white.gif') 0 0 repeat;
+    text-align: left;
+    position: fixed;
+    width: 95%;
+  }
+  header h1 {
+    display: inline-block;
+    margin-top: 0.5em;
+  }
+  header h1 a {
+    border: none;
+  }
+  header nav {
+    zoom: 1;
+    float: right;
+    margin-top: 1em;
+    margin-right: 1em;
+  }
+  header nav:before,
+  header nav:after {
+    content: "";
+    display: table;
+  }
+  header nav:after {
+    clear: both;
+  }
+  header nav ul {
+    display: none;
+  }
+  header nav .mobile-link {
+    font-size: 200%;
+    display: inline-block;
+    border: none;
+  }
+  section {
+    padding: 1em;
+  }
   .cc-three-column {
     display: inline;
     float: left;

@@ -73,12 +73,12 @@ h2, h3, h4 {
 }
 
 h3 {
-	text-transform: uppercase;
+
 }
 
-ul {
+ul, ol {
 	padding: 0;
-	margin: 1em 0;
+	margin: 1em;
 	list-style-image: square;
 }
 
@@ -107,13 +107,18 @@ header {
       padding: 0;
       margin: 0;
     }
+
+		.mobile-link {
+			display: none;
+		}
   }
 }
 
 section {
   .cf();
 
-  padding: 1em 1em 1em 15%;
+  padding: 1.5em 1em 1.5em 15%;
+	border-bottom: 1px dotted #ddd;
   h2 {
     .column(12);
   }
@@ -125,21 +130,24 @@ section {
 }
 
 
-#feed {
+#homework {
+	border-color: rgb(255, 0, 255);
 }
 
 #class {
-	background: #eee;
+	// background: #eee;
+	border-color: @pcc-red;
 }
 
 #lectures {
+	border-color: @pcc-blue;
 }
 
 #resources {
 }
 
 #readings {
-	background: #ccc;
+	border-color: rgb(255, 0, 0);
 }
 
 #readings {
@@ -149,18 +157,13 @@ section {
 }
 
 #students {
+	border-color: rgb(255, 255, 0);
 }
 
 footer {
 	padding: 1em 1em 1em 15%;
 	font-size: 80%;
-	background: #000;
-	color: #fff;
-
-	a , a:visited {
-		color: #fff;
-		border-color: #fff;
-	}
+	background: #fff;
 }
 
 .cc-three-column {
@@ -173,6 +176,46 @@ footer {
 
 
 @media screen and (max-width: 600px) {
+
+	header {
+	  .px-bg();
+
+	  text-align: left;
+	  position: fixed;
+	  width: 95%;
+
+
+		h1 {
+			display: inline-block;
+			margin-top: 0.5em;
+			a {
+				border: none;
+			}
+		}
+
+	  nav {
+			.cf();
+
+			float: right;
+			margin-top: 1em;
+			margin-right: 1em;
+
+			ul {
+				display: none;
+			}
+
+			.mobile-link {
+				font-size: 200%;
+				display: inline-block;
+				border: none;
+			}
+	  }
+	}
+
+	section {
+		padding: 1em;
+	}
+
   .cc-three-column {
     .column(12);
   }
