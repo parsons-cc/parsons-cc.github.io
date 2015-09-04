@@ -512,7 +512,7 @@ section h2 {
   border-color: #ff00ff;
 }
 #class {
-  border-color: #e82e21;
+  border-color: #ffff00;
 }
 #lectures {
   border-color: #002fa7;
@@ -521,7 +521,7 @@ section h2 {
   border-color: #ff0000;
 }
 #students {
-  border-color: #ffff00;
+  border-color: #e82e21;
 }
 footer {
   padding: 1em 1em 1em 15%;
