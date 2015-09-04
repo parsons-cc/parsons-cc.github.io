@@ -12,6 +12,9 @@
 
 @img-px-pattern-white: '/assets/img/px-pattern-white.gif';
 
+@pcc-red: #e82e21;
+@pcc-blue: #002FA7; // yves klein blue
+
 .pcc-sans-serif() {
 	font-family: @pcc-sans-serif-family;
 }
@@ -47,6 +50,36 @@
 body {
   .pcc-sans-serif();
   .px-bg-grey();
+	color: #333;
+	line-height: 1.5em;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+
+	&:visited {
+		color: #333;
+	}
+
+	&:hover {
+		color: @pcc-red;
+	}
+}
+
+h2, h3, h4 {
+	font-weight: 400;
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+ul {
+	padding: 0;
+	margin: 1em 0;
+	list-style-image: square;
 }
 
 // h1, h1 * {
@@ -60,6 +93,12 @@ header {
   position: fixed;
   width: 10%;
   padding: 2.5%;
+
+	h1 {
+		a {
+			border: none;
+		}
+	}
 
   nav {
 
@@ -90,6 +129,7 @@ section {
 }
 
 #class {
+	background: #eee;
 }
 
 #lectures {
@@ -99,6 +139,7 @@ section {
 }
 
 #readings {
+	background: #ccc;
 }
 
 #readings {
@@ -110,10 +151,26 @@ section {
 #students {
 }
 
+footer {
+	padding: 1em 1em 1em 15%;
+	font-size: 80%;
+	background: #000;
+	color: #fff;
+
+	a , a:visited {
+		color: #fff;
+		border-color: #fff;
+	}
+}
 
 .cc-three-column {
   .column(4);
 }
+
+.cc-single-column {
+  .column(12);
+}
+
 
 @media screen and (max-width: 600px) {
   .cc-three-column {

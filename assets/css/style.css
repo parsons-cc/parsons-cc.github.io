@@ -442,6 +442,32 @@ body:after {
 body {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   background: #eeeeee url('/assets/img/px-pattern-white.gif') 0 0 repeat;
+  color: #333;
+  line-height: 1.5em;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+a:visited {
+  color: #333;
+}
+a:hover {
+  color: #e82e21;
+}
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+h3 {
+  text-transform: uppercase;
+}
+ul {
+  padding: 0;
+  margin: 1em 0;
+  list-style-image: square;
 }
 header {
   background: transparent url('/assets/img/px-pattern-white.gif') 0 0 repeat;
@@ -449,6 +475,9 @@ header {
   position: fixed;
   width: 10%;
   padding: 2.5%;
+}
+header h1 a {
+  border: none;
 }
 header nav ul {
   list-style: none;
@@ -477,10 +506,33 @@ section h2 {
   width: 100%;
   height: 100%;
 }
+#class {
+  background: #eee;
+}
+#readings {
+  background: #ccc;
+}
+footer {
+  padding: 1em 1em 1em 15%;
+  font-size: 80%;
+  background: #000;
+  color: #fff;
+}
+footer a,
+footer a:visited {
+  color: #fff;
+  border-color: #fff;
+}
 .cc-three-column {
   display: inline;
   float: left;
   width: 31.25%;
+  margin: 0 1.04166667%;
+}
+.cc-single-column {
+  display: inline;
+  float: left;
+  width: 97.91666667%;
   margin: 0 1.04166667%;
 }
 @media screen and (max-width: 600px) {
