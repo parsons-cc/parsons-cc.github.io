@@ -522,6 +522,8 @@ section h2 {
 }
 #reference {
   border-color: magenta;
+}
+#reference li {
   color: #777;
 }
 #students {
