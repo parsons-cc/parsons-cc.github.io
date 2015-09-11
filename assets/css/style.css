@@ -520,6 +520,10 @@ section h2 {
 #readings {
   border-color: #ff0000;
 }
+#reference {
+  border-color: magenta;
+  color: #777;
+}
 #students {
   border-color: #e82e21;
 }
