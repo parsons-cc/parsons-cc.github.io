@@ -1,6 +1,7 @@
 @import url("http://fonts.googleapis.com/css?family=Anonymous+Pro:400,400italic,700,700italic");
 @import (inline) "../../vendor/normalize-css/normalize.css";
 @import "../../vendor/semantic-grid/stylesheets/less/grid.less";
+@import "_code-highlights.less";
 @column-width: 60;
 @gutter-width: 20;
 @columns: 12;
@@ -53,6 +54,20 @@ body {
 	color: #333;
 	line-height: 1.5em;
 }
+
+body.cc-page {
+	main {
+
+		section {
+			max-width: 800px;
+		}
+
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
 
 a {
 	color: #000;

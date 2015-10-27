@@ -4,19 +4,20 @@
 	{% include head.html %}
 </head>
 
-<body class="pcc-page">
+<body class="cc-page">
 
 	<div id="wrapper">
 
 		{% include header.html %}
 
 		<main role="main">
+			<section>
+				<h1>{{page.title}}</h1>
 
-			<h1>{{page.title}}</h1>
-
-			<article>
-				{{ content }}
-			</article>
+				<article>
+					{{ content }}
+				</article>
+			</section>
 		</main>
 
 		{% include footer.html %}

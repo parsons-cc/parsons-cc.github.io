@@ -1,0 +1,19 @@
+{
+  "name": "pygments",
+  "version": "2.0.2",
+  "description": "Bower package for Pygments",
+  "main": [
+    "css/"
+  ],
+  "_cacheHeaders": {
+    "ETag": "\"b8fbdaa742264cf085015a27a8e18aaae60f9677\"",
+    "Content-Length": "21279",
+    "Content-Type": "application/zip",
+    "Content-Disposition": "attachment; filename=bower-pygments-master.zip"
+  },
+  "_release": "e-tag:b8fbdaa74",
+  "_source": "https://github.com/xavierdutreilh/bower-pygments/archive/master.zip",
+  "_target": "*",
+  "_originalSource": "https://github.com/xavierdutreilh/bower-pygments/archive/master.zip",
+  "_direct": true
+}
