@@ -195,9 +195,13 @@ Now `cd` into that folder.
 $ cd Code
 ```
 
-Ok, now go to your Git repository and copy the "clone" URL:
+**Note:** for the next step you will need to have Git installed. You can download the installer [on the Git website](http://git-scm.com/download/mac).
 
-~[clone-url](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/git-clone.png)
+Ok, now go to your Git repository, which should be at **`https://github.com/[your username]/[your username].github.io`** (replacing **`[your username]`** with your GitHub username).
+
+Locate copy the "clone" URL in the right sidebar and copy it:
+
+![clone-url](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/git-clone.png)
 
 Now type `git pull ` and then paste the link into the terminal: (so your url should be in place of `[path to your repository]" below:
 
@@ -245,19 +249,20 @@ Ok! Now we're ready to go!
 
 ## HTML Demo
 
- * Opening site in Atom
- * Open in browser
-  * Refresh, refresh, refresh!
- * Basic HTML
-  * Adding links
-  * Adding images
- * Basic CSS
-  * Background colors
-  * Fonts
-  * Magic?
- * Bringing in JavaScript??
+You can view or download the source code for the example I gave in class (slightly modified) [here on GitHub](https://github.com/parsons-cc/html-demo).
 
-# Assignments
+### index.html
+<script src="http://gist-it.appspot.com/https://github.com/parsons-cc/html-demo/blob/master/index.html"></script>
 
- 1. Make a basic HTML website! Anything goes really, but make sure to add your "Drawing Machine" project.
- 2. Read "The Information"
+### malevich.html
+<script src="http://gist-it.appspot.com/https://github.com/parsons-cc/html-demo/blob/master/malevich.html"></script>
+
+
+### style.css
+<script src="http://gist-it.appspot.com/https://github.com/parsons-cc/html-demo/blob/master/style.css"></script>
+
+
+## Assignments
+
+ 1. Make a basic HTML website! Anything goes really, but make sure to add one of your projects.
+ 2. Read the rest of Galloway's _Protocol_.

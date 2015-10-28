@@ -767,7 +767,7 @@ a:hover {
 h2,
 h3,
 h4 {
-  font-weight: 400;
+  font-weight: bold;
 }
 ul,
 ol {
@@ -795,7 +795,7 @@ header nav .mobile-link {
 }
 section {
   zoom: 1;
-  padding: 1.5em 1em 1.5em 15%;
+  padding: 1.5em 1em 1.5em 18%;
   border-bottom: 1px dotted #ddd;
 }
 section:before,
@@ -805,12 +805,6 @@ section:after {
 }
 section:after {
   clear: both;
-}
-section h2 {
-  display: inline;
-  float: left;
-  width: 97.91666667%;
-  margin: 0 1.04166667%;
 }
 #canvas {
   width: 100%;
