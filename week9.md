@@ -11,7 +11,7 @@ title: "Week 9: Time"
 ## Today we will
  * Discuss the second part of Galloway's _Protocol_
  * Go over last week's assignment
- * Learn how to push our code to the server using Git!
+ * <del>Learn how to push our code to the server using Git!</del> Finish Git setup!
  * Start the next project, ["Timepiece"](https://github.com/parsons-cc/timepiece)
  * Continue conferences!
 
@@ -23,7 +23,7 @@ title: "Week 9: Time"
 
 How'd it go? Discuss.
 
-### Git demo (let's try that again!)
+## Git demo (let's try that again!)
 
 **Fire up those terminals!** First, go to your `~/Code` folder and open it (should have created last class):
 
