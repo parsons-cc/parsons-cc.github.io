@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Clouds to Circuits / Filesystems, Git, IDEs"
+title: "Week 8: Clouds to Circuits / Filesystems, Git, IDEs"
 ---
 
 ## Networks!
