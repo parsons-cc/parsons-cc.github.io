@@ -3,7 +3,9 @@ layout: page
 title: "Week 10: Research & Development"
 ---
 
-## How we feelin?
+<div class="cc-toc"></div>
+
+# How we feelin?
 
 ![Code + Design](http://33.media.tumblr.com/851e19a6f444b5539b8fc47e4990cee6/tumblr_nx7w4wEX161siv67lo1_540.gif)
 

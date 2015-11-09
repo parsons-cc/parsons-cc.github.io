@@ -2,4 +2,4 @@ exclude: [README.md, package.json, bower.json, Gruntfile.js, node_modules, asset
 markdown: redcarpet
 highlighter: pygments
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]

@@ -3,34 +3,37 @@ layout: page
 title: "Week 8: Clouds to Circuits / Filesystems, Git, IDEs"
 ---
 
-## Networks!
+<div class="cc-toc"></div>
+
+
+# Networks!
 
 There are networks everywhere! Here are some kinds.
 
-### Centralized
+## Centralized
 ![centralized](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/centralized.png)
 ![panopticon](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/panopticon.jpg)
 
-### Decentralized
+## Decentralized
 ![decentralized](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/decentralize.png)
 ![SOTUS](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/Supreme-Court-Justices.jpg)
 
-### Distributed
+## Distributed
 ![distributed](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/distributed.png)
 ![eisenhower](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/finalmap.jpg)
 
-### The Internet, everybody's favorite distributed network!
+## The Internet, everybody's favorite distributed network!
 ![tin cans](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/tin-can-network.jpg)
 ![internet](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/map-of-internet.png)
 
-## Say Hello to the terminal
+# Say Hello to the terminal
 
 ![Terminal.app](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/terminal-demo.gif)
 
 ### Proceed with caution!
 Be aware that the terminal won't babysit you in the way you're used to. You can do some **serious damage** if you're not careful. In a worst-case scenario, you could **delete some or all of your hard drive** by accident (trust me, I've done it). But we're hackers now so we can handle it, just remember to be careful and take your time. Also, back up your computer if you aren't already!
 
-### The basics
+## The basics
 
 
 ![Applications->Utilities->Terminal.app](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/terminal-location.png)
@@ -157,7 +160,7 @@ say -v Pipe Organ bum bum bum bummm bum bum
 
 You get the idea ;)
 
-## Say hello to git
+# Say hello to git
 
 ![Git](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/320px-Git-logo.svg.png)
 
@@ -173,7 +176,7 @@ Some basic terms:
 
  * **Cloning** is when you copy a Git repository to make a new one. This is what happens when you copy files from GitHub onto your computer. Every Git repository can be cloned infinite times, and each clone can be synced with the others.
 
-## Git, meet the terminal
+# Git, meet the terminal
 
 Ok, so let's do some ... uh .. _gitting_? First go to your GitHub account (hint: you should have put your username in the class Google Doc).
 
@@ -247,22 +250,22 @@ $ git pull
 
 Ok! Now we're ready to go!
 
-## HTML Demo
+# HTML Demo
 
 You can view or download the source code for the example I gave in class (slightly modified) [here on GitHub](https://github.com/parsons-cc/html-demo).
 
-### index.html
+## index.html
 <script src="http://gist-it.appspot.com/https://github.com/parsons-cc/html-demo/blob/master/index.html"></script>
 
-### malevich.html
+## malevich.html
 <script src="http://gist-it.appspot.com/https://github.com/parsons-cc/html-demo/blob/master/malevich.html"></script>
 
 
-### style.css
+## style.css
 <script src="http://gist-it.appspot.com/https://github.com/parsons-cc/html-demo/blob/master/style.css"></script>
 
 
-## Assignments
+# Assignments
 
  1. Make a basic HTML website! Anything goes really, but make sure to add one of your projects.
  2. Read the rest of Galloway's _Protocol_.

@@ -3,27 +3,28 @@ layout: page
 title: "Week 9: Time"
 ---
 
-## How are we feeling?
+<div class="cc-toc"></div>
+
+# How are we feeling?
 
 ![HTML](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/html-tat.jpg)
 <small>[Brian Fitzgerald/flickr](https://www.flickr.com/photos/brian-fitzgerald/)</small>
 
-## Today we will
+# Today we will
  * Discuss the second part of Galloway's _Protocol_
  * Go over last week's assignment
  * <del>Learn how to push our code to the server using Git!</del> Finish Git setup!
  * Start the next project, ["Timepiece"](https://github.com/parsons-cc/timepiece)
  * Continue conferences!
 
-## Discussion
+# Discussion
 
 ![https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/galloway-protocol.png](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/galloway-protocol.png)
-
-## HTML assignment
+# HTML assignment
 
 How'd it go? Discuss.
 
-## Git demo (let's try that again!)
+# Git demo (let's try that again!)
 
 **Fire up those terminals!** First, go to your `~/Code` folder and open it (should have created last class):
 
@@ -68,7 +69,7 @@ $ open .
 ![Clone class site](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/clone-class-site.mov.gif)
 
 
-## On Time
+# On Time
 
 ![Railroads](https://c1.staticflickr.com/3/2294/2178249693_f1f6494124_o.jpg)
 https://www.flickr.com/photos/library_of_congress/2178249693/in/photolist-4ju6Kc-4jz335
@@ -82,7 +83,7 @@ https://www.flickr.com/photos/robinjp/8706930459/
 ![Computer Clock](https://c2.staticflickr.com/2/1424/601867351_28b7eb7329_b.jpg)
 https://www.flickr.com/photos/bookgrl/601867351/
 
-## Examples
+# Examples
 
 Chena Alexander, ["Piano Phase"](http://www.chenalexander.com/Piano-Phase)
 ![Piano Phase](https://dl.dropboxusercontent.com/u/2100102/parsons-cc/images/piano-phase.png)
