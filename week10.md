@@ -224,9 +224,19 @@ $ python -m SimpleHttpServer
 
 ## Demonstration Project
 
-You can find the demo project here:
+In class we began a sample project creating a "cat calendar". **[Browse the sample code here](https://github.com/parsons-cc/timepiece-example-catcal) or [download it to your computer](https://github.com/parsons-cc/timepiece-example-catcal/archive/master.zip).**
 
-[timepice-example-catcal](https://github.com/parsons-cc/timepiece-example-catcal)
+### Concept
+
+The goal was to create a site that would update the background based on the current time and the image/text based on the day of the month.
+
+[![Concept](https://github.com/parsons-cc/timepiece-example-catcal/raw/master/assets/cat-time-concept.jpg)](https://github.com/parsons-cc/timepiece-example-catcal)
+
+### Final product
+
+Click through to see the code and demos for each step of the way:
+
+[![Completed](https://github.com/parsons-cc/timepiece-example-catcal/raw/master/assets/part6.png)](https://github.com/parsons-cc/timepiece-example-catcalx`)
 
 
 # Next Week
